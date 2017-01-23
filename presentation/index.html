@@ -11830,7 +11830,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 style="text-align:center">Predict next trip</h1><h3 style="text-align:center">Business case</h3><hr>
+<p><h1 style="text-align:center">Data-drive reccomandations</h1></p>
+<h3 style="text-align:center">Business case</h3><hr>
 <p style="font-weight:bold; text-align:center">Raffaele Rainone</p><p style="text-align:center">Booking.com</p>
 <p style="text-align:center">27 Jan 2016</p><style>
 .reveal pre code {
@@ -11892,43 +11893,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div></div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">IFrame</span><span class="p">(</span><span class="s1">&#39;http://www.booking.com/&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-
-        <iframe
-            width="800"
-            height="500"
-            src="http://www.booking.com/"
-            frameborder="0"
-            allowfullscreen
-        ></iframe>
-        
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12136,7 +12101,7 @@ a.anchor-link {
 <p><strong>Strategy</strong></p>
 <ul>
 <li>Compute probability of visiting a country given the data;</li>
-<li>Suggest the top $N$ country ordered by probability.</li>
+<li>Suggest the top $N$ countries ordered by probability.</li>
 </ul>
 
 </div>
@@ -12195,7 +12160,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">history</span><span class="o">.</span><span class="n">ix</span><span class="p">[</span><span class="mi">9938</span><span class="p">:</span><span class="mi">9939</span><span class="p">,</span> <span class="p">:]</span>
@@ -12209,7 +12174,7 @@ a.anchor-link {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12263,7 +12228,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">ix</span><span class="p">[</span><span class="mi">9938</span><span class="p">:</span><span class="mi">9939</span><span class="p">,</span> <span class="p">:]</span>
@@ -12277,7 +12242,7 @@ a.anchor-link {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12376,7 +12341,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Strategy</strong>:</p>
 <ul>
-<li>Cluster users by similarity (how we define similarity? by country/age/sex?) - probably by location browsed/visited (e.g. European cities vs. wild towns)</li>
+<li>Cluster users by <em>similarity</em> (how do we define similarity? by country/age/sex?) - probably by location browsed/visited (e.g. European cities vs. wild towns)</li>
 </ul>
 
 </div>
@@ -12444,6 +12409,24 @@ Therefore 2 and 3 are in the same cluster.</p>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><h1>Thanks</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
+<h3 style="text-align: right">Wir müssen wissen, wir werden wissen. [D.H.]</h3>
+</div>
+</div>
 </div><aside class="notes">
 
 <div class="cell border-box-sizing text_cell rendered">
@@ -12457,27 +12440,10 @@ Therefore 2 and 3 are in the same cluster.</p>
 </div>
 </div>
 </div>
-</aside></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 style="text-align: center">Thanks</h1>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br></p>
-<h3 style="text-align: right">Wir müssen wissen, wir werden wissen. [D.H.]</h3>
+</aside></section></section>
 </div>
 </div>
-</div></section></section>
-</div>
-</div>
+
 
 <script>
 
@@ -12500,8 +12466,8 @@ require(
             progress: true,
             history: true,
 
-            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-            transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+            theme: Reveal.getQueryHash().theme || 'sky', // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/none
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
